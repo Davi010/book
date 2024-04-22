@@ -1,0 +1,46 @@
+.corpo4 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(30px);
+}
+
+.cabecalho4 {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(156, 70, 253);
+}
+
+.cabecalho4 span {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho4 ul {
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lista4 ul {
+    display: flex;
+}
+
+.lista4 li {
+    margin: 70px;
+}
+
+.chat4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho4 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}

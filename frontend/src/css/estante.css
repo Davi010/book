@@ -1,0 +1,128 @@
+.corpo3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(30px);
+    background-color: black;
+}
+
+.cabecalho2 {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(156, 70, 253);
+}
+
+.cabecalho2 span {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho2 ul {
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.lista2 ul {
+    display: flex;
+}
+
+.lista2 li {
+    margin: 70px;
+}
+
+.chat2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+.usuario2{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 3px solid rgba(185, 185, 185, 0.774);
+    border-radius: 15px;
+}
+.usuario2 p{
+margin: 10px;
+}
+.usuario2 figure{
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(255, 204, 110);
+    border-radius: 30px;
+    background-color: rgb(124, 124, 124);
+}
+.btn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn2 button{
+    width: 170px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+    
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.btntroca2 button{
+    background: rgb(156, 70, 253);
+}
+.btntroca2 button:hover{
+    background: rgb(121, 33, 223);
+    width: 175px;
+    height: 55px;
+}
+.page4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+.livro2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: inset;
+    margin: 5px;
+    border: 5px solid rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
+    
+}
+.oferta-c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oferta2{
+    
+    background:url("");
+    background-position: center;
+    background-size: cover;
+    width: 170px;
+    height: 250px;
+    margin:10px;
+    border:3px solid rgba(211, 211, 211, 0.877);
+    border-radius: 10px;
+}

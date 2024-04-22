@@ -1,0 +1,32 @@
+.btnolhar-troca{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.btnolhar-troca .olha-troca{
+    background: linear-gradient(to right, #AD00FF, #680099);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    height: 55px;
+    font-weight: 600;
+    width: 250px;
+    color: white;
+}
+.book-troca {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.livros-t{
+    margin-top: 40px;
+   
+}
+.livros1-t{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 60px;
+}
